@@ -1,14 +1,14 @@
 # Identify-Fraud-from-Enron-Email
 
-Project Overview
+#Project Overview
+
 In this project, you will play detective, and put your machine learning skills to use by building an algorithm to identify Enron Employees who may have committed fraud based on the public Enron financial and email dataset.
 
 Prepare for this project with: Intro to Machine Learning.
 
-Note
-If you have successfully completed the project for the Intro to Machine Learning course in the past (which entails having graduated from the course and having access to your course certificate), simply email us at dataanalyst-project@udacity.com with your passing evaluation and we'll give you credit for this project.
 
-Why this Project?
+
+#Why this Project?
 This project will teach you the end-to-end process of investigating data through a machine learning lens.
 
 It will teach you how to extract and identify useful features that best represent your data, a few of the most commonly used machine learning algorithms today, and how to evaluate the performance of your machine learning algorithms.
@@ -30,7 +30,8 @@ As data sources proliferate along with the computing power to process them, goin
 
 Machine learning brings together computer science and statistics to harness that predictive power.
 
-Resources Needed
+#Resources Needed
+
 You should have python and sklearn running on your computer, as well as the starter code (both python scripts and the Enron dataset) that you downloaded as part of the first mini-project in the Intro to Machine Learning course. You can get the starter code on git: git clone https://github.com/udacity/ud120-projects.git
 
 The starter code can be found in the final_project directory of the codebase that you downloaded for use with the mini-projects. Some relevant files:
@@ -43,7 +44,8 @@ tester.py : When you turn in your analysis for evaluation by Udacity, you will s
 
 emails_by_address : this directory contains many text files, each of which contains all the messages to or from a particular email address. It is for your reference, if you want to create more advanced features based on the details of the emails dataset. You do not need to process the e-mail corpus in order to complete the project.
 
-Steps to Success
+#Steps to Success
+
 We will provide you with starter code that reads in the data, takes your features of choice, then puts them into a numpy array, which is the input form that most sklearn functions assume. Your job is to engineer the features, pick and tune an algorithm, and to test and evaluate your identifier. Several of the mini-projects were designed with this final project in mind, so be on the lookout for ways to use the work you’ve already done.
 
 As preprocessing to this project, we've combined the Enron email and financial data into a dictionary, where each key-value pair in the dictionary corresponds to one person. The dictionary key is the person's name, and the value is another dictionary, which contains the names of all the features and their values for that person. The features in the data fall into three major types, namely financial features, email features and POI labels.
